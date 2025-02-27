@@ -1,0 +1,421 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+
+html, body {
+    font-family: "Kanit", serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+header {
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Give space on the left and right */
+    border-bottom: none;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-right ul li {
+    display: inline;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+    min-height: calc(100vh - 50px); /* hight footer */
+}
+
+#hero {
+    text-align: center;
+    margin: 80px 0 80px 0;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.section-box {
+    width: 90%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+.article-left,
+.list-Projects{
+    text-align: left;
+}
+
+.reviews {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reviews blockquote {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #ddd;
+    border-radius: 8px;
+    margin: 15px 0;
+    width: 30%;
+    text-align: left;
+}
+
+.teachers {
+    font-style: italic;
+    margin-top: 10px;
+}
+#toggleDarkMode {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+.dark-mode .navbar {
+    background-color: #333;
+    border-bottom: 1px solid #555;
+}
+.dark-mode .nav-right ul li a {
+    color: white;
+}
+.dark-mode .section-box{
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode blockquote, footer {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #444;
+    color: white;
+}
+.dark-mode footer {
+    background-color: #444;
+    color: white;
+}
+
+.Projects-pages {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Projects-pages h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.list-Projects1 {
+    list-style: none;
+    padding: 0;
+}
+
+.list-Projects1 li {
+    background: #fff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode */
+.dark-mode .Projects-pages {
+    background-color: #444;
+    color: white;
+}
+.dark-mode .Projects-pages h2{
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode .list-Projects1 li {
+    background: #555;
+    color: white;
+}
+.articles1 {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.articles1 h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.articles1 ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.articles1 li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.articles1 h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.articles1 h2 a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.articles1 h2 a:hover {
+    color: #0056b3;
+}
+
+.articles1 p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Dark Mode */
+.dark-mode .articles1 h2{
+    color: white;
+}
+.dark-mode .articles1 {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode .articles1 li {
+    background: #555;
+    color: white;
+}
+
+.dark-mode .articles1 h2 a p {
+    color: #1E90FF;
+}
+
+.dark-mode .articles1 h2 a:hover {
+    color: #63B8FF;
+}
+
+.dark-mode .articles1 p {
+    color: #ddd;
+}
+
+.Contact-info {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Contact-info h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.Contact-info form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.Contact-info label {
+    font-weight: bold;
+    color: #333;
+}
+
+.Contact-info input,
+.Contact-info textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Contact-info textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.Contact-info button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.Contact-info button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark Mode contact info*/
+.dark-mode .Contact-info h2{
+    background-color: #444;
+    color: white;
+}
+.dark-mode .Contact-info {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode .Contact-info label {
+    color: white;
+}
+
+.dark-mode .Contact-info input,
+.dark-mode .Contact-info textarea {
+    background-color: #555;
+    color: white;
+    border: 1px solid #777;
+}
+
+.dark-mode .Contact-info button {
+    background-color: #1E90FF;
+}
+
+.dark-mode .Contact-info button:hover {
+    background-color: #63B8FF;
+}
+.Contact-info input,
+.Contact-info textarea {
+    width: calc(100% - 20px); /* Mengurangi padding agar tetap dalam box */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Supaya padding tidak menambah ukuran total */
+}
+
+
+footer {
+    background-color: #f4f4f4;
+    color: #000;
+    padding: 10px;
+   
+    text-align: center;
+   
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .nav-left, .nav-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+    }
+    .nav-right ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0;
+    }
+    .section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-box, .Projects-pages, .articles1, .Contact-info {
+        width: 95%;
+        padding: 15px;
+    }
+    .Projects-pages h2, .Contact-info h2 {
+        font-size: 22px;
+    }
+    .list-Projects li, .articles1 p, .Contact-info input, .Contact-info textarea {
+        font-size: 14px;
+    }
+    .articles1 h1 {
+        font-size: 22px;
+    }
+    .articles1 h2 {
+        font-size: 18px;
+    }
+    .Contact-info button {
+        font-size: 16px;
+    }
+}
