@@ -7,7 +7,7 @@ Front-end Projects, more from Roadmap.sh
 
 [2. Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
-[3. Personal Portfolio]
+[3. Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 
 4. Changelog Component
 5. Testimonial Cards
