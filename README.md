@@ -9,7 +9,9 @@ Front-end Projects, more from Roadmap.sh
 
 [3. Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 
-4. Changelog Component
+[4. Changelog Component](https://roadmap.sh/projects/changelog-component)
+
+
 5. Testimonial Cards
 6. Datepicker UI
 7. Accessible Form UI
