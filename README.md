@@ -3,7 +3,7 @@
 This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
 Front-end Projects, more from Roadmap.sh
 
-[1.Single Page CV ](https://roadmap.sh/projects/single-page-cv)
+[1. Single Page CV ](https://roadmap.sh/projects/single-page-cv)
 
 [2. Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
