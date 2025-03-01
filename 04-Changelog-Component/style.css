@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background: white;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    border: 1px solid #ddd;
+}
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+.timeline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #ccc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.event {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.event::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.date{
+    color: gray;
+}
+.date, .desc {
+    width: 45%;
+    text-align: center;
+}
+.event:nth-child(even) .date {
+    text-align: center;
+}
+.event:nth-child(even) .desc {
+    text-align: center;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
