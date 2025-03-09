@@ -1,5 +1,13 @@
 # roadmap.sh-projects
 ## Front-end Projects from Roadmap.sh
+
+<p align="center">
+  <a href="https://github.com/himangmyid/roadmap.sh-projects">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=himangmyid&repo=roadmap.sh-projects&theme=tokyonight" alt="GitHub Repo Card">
+  </a>
+</p>
+
+
 This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
 Front-end Projects, more from Roadmap.sh
 
